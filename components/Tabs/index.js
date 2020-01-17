@@ -8,7 +8,7 @@
 //  The tab component should look like this:
 //    <div class="tab">topic here</div>
 
-function createTab(topics) {
+function Tab(topics) {
     const tab =  document.createElement('div');
     console.log(tab);
     const tabContainer = document.querySelector(".topics");
@@ -21,11 +21,9 @@ function createTab(topics) {
 
     tab.textContent = topics;
 
-    return tab;
+    return Tab;
 
 }
-
-
 
 
 const tabs = document.querySelector(".tabs");
